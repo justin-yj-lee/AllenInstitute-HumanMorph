@@ -28,7 +28,7 @@ Used PCA for dimensional reduction and used loading scores of the morphological 
 >> Comparing Rand Indices of the results for each clustering analysis with the qualitative calls supports the use of Hierarchical Clustering for Morpho Type Identification.
 
 ## Discussion and Conclusion
-The overall low similarity between the calculated clusters and the qualitative calls means the algorithms are defining distance between and within clusters on different criteria than our own calls. It also means, certain subtypes of qualitative calls may be less similar to other major types and thus, more significant labels in distinguishing morpho type. Finally, the limitations in our impure data set may have contributed to the low similarity between the quantitative and qualitative clusters.
+The overall low similarity between the calculated clusters and the qualitative calls means the algorithms are defining distance between and within clusters on different criteria than our own calls. It also means, certain subtypes of qualitative calls may be less similar to other major types and thus, more significant labels in distinguishing morpho type. The limitations in our impure data set may have contributed to the low similarity between the quantitative and qualitative clusters. Overally, hierarchical clustering is shown to be relatively strong compared to different clustering methods, besides K-Means being the strongest.
 
 ## Next Steps
 1. Use the major principal components as the new set of features (i.e. first 10) and cluster again
